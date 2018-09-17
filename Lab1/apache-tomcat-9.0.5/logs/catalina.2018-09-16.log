@@ -1,0 +1,469 @@
+16-Sep-2018 15:42:10.704 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.5
+16-Sep-2018 15:42:10.709 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 6 2018 21:42:23 UTC
+16-Sep-2018 15:42:10.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.5.0
+16-Sep-2018 15:42:10.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+16-Sep-2018 15:42:10.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-22-generic
+16-Sep-2018 15:42:10.710 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Sep-2018 15:42:10.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+16-Sep-2018 15:42:10.711 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           10.0.1+10-Ubuntu-3ubuntu1
+16-Sep-2018 15:42:10.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Sep-2018 15:42:10.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5
+16-Sep-2018 15:42:10.715 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5
+16-Sep-2018 15:42:10.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Sep-2018 15:42:10.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Sep-2018 15:42:10.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/conf/logging.properties
+16-Sep-2018 15:42:10.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Sep-2018 15:42:10.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Sep-2018 15:42:10.716 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Sep-2018 15:42:10.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-Sep-2018 15:42:10.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5
+16-Sep-2018 15:42:10.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5
+16-Sep-2018 15:42:10.717 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/temp
+16-Sep-2018 15:42:10.717 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+16-Sep-2018 15:42:10.763 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 15:42:10.798 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+16-Sep-2018 15:42:10.810 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 15:42:10.812 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+16-Sep-2018 15:42:10.819 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 696 ms
+16-Sep-2018 15:42:10.888 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Sep-2018 15:42:10.889 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.5
+16-Sep-2018 15:42:10.897 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/host-manager]
+16-Sep-2018 15:42:11.374 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/host-manager] has finished in [472] ms
+16-Sep-2018 15:42:11.374 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/ROOT]
+16-Sep-2018 15:42:11.437 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/ROOT] has finished in [63] ms
+16-Sep-2018 15:42:11.437 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/manager]
+16-Sep-2018 15:42:11.480 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/manager] has finished in [43] ms
+16-Sep-2018 15:42:11.482 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/my_webapp]
+16-Sep-2018 15:42:11.551 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Sep-2018 15:42:11.561 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/my_webapp] has finished in [80] ms
+16-Sep-2018 15:42:11.562 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/examples]
+16-Sep-2018 15:42:11.884 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/examples] has finished in [321] ms
+16-Sep-2018 15:42:11.884 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/docs]
+16-Sep-2018 15:42:11.901 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/docs] has finished in [17] ms
+16-Sep-2018 15:42:11.904 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 15:42:11.942 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 15:42:11.954 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1134 ms
+16-Sep-2018 16:02:56.139 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+16-Sep-2018 16:02:56.139 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 16:02:56.192 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 16:02:56.243 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Sep-2018 16:02:56.346 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 16:02:56.368 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 16:02:56.373 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 16:02:56.376 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 16:03:01.734 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.5
+16-Sep-2018 16:03:01.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 6 2018 21:42:23 UTC
+16-Sep-2018 16:03:01.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.5.0
+16-Sep-2018 16:03:01.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+16-Sep-2018 16:03:01.741 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-22-generic
+16-Sep-2018 16:03:01.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Sep-2018 16:03:01.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+16-Sep-2018 16:03:01.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           10.0.1+10-Ubuntu-3ubuntu1
+16-Sep-2018 16:03:01.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Sep-2018 16:03:01.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5
+16-Sep-2018 16:03:01.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5
+16-Sep-2018 16:03:01.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Sep-2018 16:03:01.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Sep-2018 16:03:01.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/conf/logging.properties
+16-Sep-2018 16:03:01.744 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Sep-2018 16:03:01.744 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Sep-2018 16:03:01.744 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Sep-2018 16:03:01.744 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-Sep-2018 16:03:01.744 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5
+16-Sep-2018 16:03:01.744 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5
+16-Sep-2018 16:03:01.744 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/temp
+16-Sep-2018 16:03:01.744 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+16-Sep-2018 16:03:01.782 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 16:03:01.801 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+16-Sep-2018 16:03:01.806 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 16:03:01.807 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+16-Sep-2018 16:03:01.810 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 592 ms
+16-Sep-2018 16:03:01.870 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Sep-2018 16:03:01.870 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.5
+16-Sep-2018 16:03:01.879 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/host-manager]
+16-Sep-2018 16:03:02.270 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/host-manager] has finished in [391] ms
+16-Sep-2018 16:03:02.271 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/ROOT]
+16-Sep-2018 16:03:02.292 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/ROOT] has finished in [22] ms
+16-Sep-2018 16:03:02.292 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/manager]
+16-Sep-2018 16:03:02.320 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/manager] has finished in [28] ms
+16-Sep-2018 16:03:02.321 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/my_webapp]
+16-Sep-2018 16:03:02.433 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Sep-2018 16:03:02.443 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/my_webapp] has finished in [122] ms
+16-Sep-2018 16:03:02.443 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/examples]
+16-Sep-2018 16:03:02.674 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/examples] has finished in [231] ms
+16-Sep-2018 16:03:02.675 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/docs]
+16-Sep-2018 16:03:02.692 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/docs] has finished in [17] ms
+16-Sep-2018 16:03:02.695 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 16:03:02.718 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 16:03:02.736 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 926 ms
+16-Sep-2018 16:09:39.749 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+16-Sep-2018 16:09:39.750 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 16:09:39.803 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 16:09:39.804 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Sep-2018 16:09:39.853 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 16:09:39.868 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 16:09:39.875 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 16:09:39.876 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 16:09:42.662 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.5
+16-Sep-2018 16:09:42.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 6 2018 21:42:23 UTC
+16-Sep-2018 16:09:42.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.5.0
+16-Sep-2018 16:09:42.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+16-Sep-2018 16:09:42.668 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-22-generic
+16-Sep-2018 16:09:42.669 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Sep-2018 16:09:42.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+16-Sep-2018 16:09:42.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           10.0.1+10-Ubuntu-3ubuntu1
+16-Sep-2018 16:09:42.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Sep-2018 16:09:42.671 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5
+16-Sep-2018 16:09:42.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5
+16-Sep-2018 16:09:42.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Sep-2018 16:09:42.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Sep-2018 16:09:42.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/conf/logging.properties
+16-Sep-2018 16:09:42.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Sep-2018 16:09:42.672 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Sep-2018 16:09:42.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Sep-2018 16:09:42.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-Sep-2018 16:09:42.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5
+16-Sep-2018 16:09:42.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5
+16-Sep-2018 16:09:42.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/temp
+16-Sep-2018 16:09:42.673 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+16-Sep-2018 16:09:42.712 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 16:09:42.727 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+16-Sep-2018 16:09:42.733 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 16:09:42.735 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+16-Sep-2018 16:09:42.737 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 559 ms
+16-Sep-2018 16:09:42.793 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Sep-2018 16:09:42.793 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.5
+16-Sep-2018 16:09:42.801 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/host-manager]
+16-Sep-2018 16:09:43.167 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/host-manager] has finished in [366] ms
+16-Sep-2018 16:09:43.168 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/ROOT]
+16-Sep-2018 16:09:43.228 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/ROOT] has finished in [59] ms
+16-Sep-2018 16:09:43.228 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/manager]
+16-Sep-2018 16:09:43.278 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/manager] has finished in [45] ms
+16-Sep-2018 16:09:43.279 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/my_webapp]
+16-Sep-2018 16:09:43.411 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Sep-2018 16:09:43.419 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/my_webapp] has finished in [140] ms
+16-Sep-2018 16:09:43.420 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/examples]
+16-Sep-2018 16:09:43.767 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/examples] has finished in [347] ms
+16-Sep-2018 16:09:43.768 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/docs]
+16-Sep-2018 16:09:43.786 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/docs] has finished in [18] ms
+16-Sep-2018 16:09:43.789 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 16:09:43.806 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 16:09:43.824 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1086 ms
+16-Sep-2018 18:02:18.392 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+16-Sep-2018 18:02:18.393 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 18:02:18.445 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 18:02:18.497 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Sep-2018 18:02:18.596 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 18:02:18.608 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 18:02:18.613 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 18:02:18.614 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 18:02:22.429 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.5
+16-Sep-2018 18:02:22.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 6 2018 21:42:23 UTC
+16-Sep-2018 18:02:22.437 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.5.0
+16-Sep-2018 18:02:22.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+16-Sep-2018 18:02:22.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-22-generic
+16-Sep-2018 18:02:22.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Sep-2018 18:02:22.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+16-Sep-2018 18:02:22.438 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           10.0.1+10-Ubuntu-3ubuntu1
+16-Sep-2018 18:02:22.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Sep-2018 18:02:22.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5
+16-Sep-2018 18:02:22.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5
+16-Sep-2018 18:02:22.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Sep-2018 18:02:22.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Sep-2018 18:02:22.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/conf/logging.properties
+16-Sep-2018 18:02:22.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Sep-2018 18:02:22.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Sep-2018 18:02:22.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Sep-2018 18:02:22.439 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-Sep-2018 18:02:22.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5
+16-Sep-2018 18:02:22.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5
+16-Sep-2018 18:02:22.440 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/temp
+16-Sep-2018 18:02:22.440 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+16-Sep-2018 18:02:22.487 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 18:02:22.504 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+16-Sep-2018 18:02:22.511 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 18:02:22.513 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+16-Sep-2018 18:02:22.514 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 764 ms
+16-Sep-2018 18:02:22.599 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Sep-2018 18:02:22.600 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.5
+16-Sep-2018 18:02:22.609 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/host-manager]
+16-Sep-2018 18:02:22.985 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/host-manager] has finished in [375] ms
+16-Sep-2018 18:02:22.985 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/ROOT]
+16-Sep-2018 18:02:23.006 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/ROOT] has finished in [20] ms
+16-Sep-2018 18:02:23.006 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/manager]
+16-Sep-2018 18:02:23.030 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/manager] has finished in [24] ms
+16-Sep-2018 18:02:23.030 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/my_webapp]
+16-Sep-2018 18:02:23.100 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Sep-2018 18:02:23.109 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/my_webapp] has finished in [79] ms
+16-Sep-2018 18:02:23.109 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/examples]
+16-Sep-2018 18:02:23.397 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/examples] has finished in [288] ms
+16-Sep-2018 18:02:23.397 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/docs]
+16-Sep-2018 18:02:23.419 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/docs] has finished in [22] ms
+16-Sep-2018 18:02:23.422 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 18:02:23.477 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 18:02:23.487 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 973 ms
+16-Sep-2018 19:39:35.831 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+16-Sep-2018 19:39:35.832 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 19:39:35.884 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 19:39:35.935 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Sep-2018 19:39:36.000 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 19:39:36.016 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 19:39:36.026 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 19:39:36.028 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 19:39:38.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.5
+16-Sep-2018 19:39:38.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 6 2018 21:42:23 UTC
+16-Sep-2018 19:39:38.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.5.0
+16-Sep-2018 19:39:38.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+16-Sep-2018 19:39:38.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-22-generic
+16-Sep-2018 19:39:38.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Sep-2018 19:39:38.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+16-Sep-2018 19:39:38.859 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           10.0.1+10-Ubuntu-3ubuntu1
+16-Sep-2018 19:39:38.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Sep-2018 19:39:38.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5
+16-Sep-2018 19:39:38.860 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5
+16-Sep-2018 19:39:38.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Sep-2018 19:39:38.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Sep-2018 19:39:38.863 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/conf/logging.properties
+16-Sep-2018 19:39:38.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Sep-2018 19:39:38.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Sep-2018 19:39:38.864 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Sep-2018 19:39:38.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-Sep-2018 19:39:38.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5
+16-Sep-2018 19:39:38.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5
+16-Sep-2018 19:39:38.865 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/temp
+16-Sep-2018 19:39:38.866 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+16-Sep-2018 19:39:38.904 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 19:39:38.921 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+16-Sep-2018 19:39:38.928 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 19:39:38.930 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+16-Sep-2018 19:39:38.933 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 574 ms
+16-Sep-2018 19:39:38.993 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Sep-2018 19:39:38.993 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.5
+16-Sep-2018 19:39:39.001 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/host-manager]
+16-Sep-2018 19:39:39.391 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/host-manager] has finished in [390] ms
+16-Sep-2018 19:39:39.392 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/ROOT]
+16-Sep-2018 19:39:39.412 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/ROOT] has finished in [19] ms
+16-Sep-2018 19:39:39.412 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/manager]
+16-Sep-2018 19:39:39.437 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/manager] has finished in [25] ms
+16-Sep-2018 19:39:39.438 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/my_webapp]
+16-Sep-2018 19:39:39.500 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Sep-2018 19:39:39.513 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/my_webapp] has finished in [75] ms
+16-Sep-2018 19:39:39.514 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/examples]
+16-Sep-2018 19:39:39.847 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/examples] has finished in [332] ms
+16-Sep-2018 19:39:39.847 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/docs]
+16-Sep-2018 19:39:39.872 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/docs] has finished in [25] ms
+16-Sep-2018 19:39:39.879 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 19:39:39.901 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 19:39:39.920 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 985 ms
+16-Sep-2018 19:40:41.896 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+16-Sep-2018 19:40:41.896 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 19:40:41.899 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 19:40:41.950 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Sep-2018 19:40:41.974 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 19:40:41.980 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 19:40:41.982 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 19:40:41.983 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 19:40:52.731 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.5
+16-Sep-2018 19:40:52.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 6 2018 21:42:23 UTC
+16-Sep-2018 19:40:52.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.5.0
+16-Sep-2018 19:40:52.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+16-Sep-2018 19:40:52.737 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-22-generic
+16-Sep-2018 19:40:52.738 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Sep-2018 19:40:52.738 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+16-Sep-2018 19:40:52.738 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           10.0.1+10-Ubuntu-3ubuntu1
+16-Sep-2018 19:40:52.738 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Sep-2018 19:40:52.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5
+16-Sep-2018 19:40:52.739 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5
+16-Sep-2018 19:40:52.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Sep-2018 19:40:52.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Sep-2018 19:40:52.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/conf/logging.properties
+16-Sep-2018 19:40:52.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Sep-2018 19:40:52.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Sep-2018 19:40:52.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Sep-2018 19:40:52.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-Sep-2018 19:40:52.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5
+16-Sep-2018 19:40:52.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5
+16-Sep-2018 19:40:52.742 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/temp
+16-Sep-2018 19:40:52.743 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+16-Sep-2018 19:40:52.790 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 19:40:52.806 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+16-Sep-2018 19:40:52.813 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 19:40:52.815 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+16-Sep-2018 19:40:52.817 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 608 ms
+16-Sep-2018 19:40:52.881 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Sep-2018 19:40:52.881 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.5
+16-Sep-2018 19:40:52.891 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/host-manager]
+16-Sep-2018 19:40:53.336 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/host-manager] has finished in [443] ms
+16-Sep-2018 19:40:53.337 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/ROOT]
+16-Sep-2018 19:40:53.380 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/ROOT] has finished in [42] ms
+16-Sep-2018 19:40:53.380 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/manager]
+16-Sep-2018 19:40:53.406 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/manager] has finished in [26] ms
+16-Sep-2018 19:40:53.407 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/my_webapp]
+16-Sep-2018 19:40:53.467 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Sep-2018 19:40:53.475 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/my_webapp] has finished in [68] ms
+16-Sep-2018 19:40:53.475 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/examples]
+16-Sep-2018 19:40:53.729 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/examples] has finished in [254] ms
+16-Sep-2018 19:40:53.730 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/docs]
+16-Sep-2018 19:40:53.749 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/docs] has finished in [19] ms
+16-Sep-2018 19:40:53.752 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 19:40:53.775 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 19:40:53.797 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 978 ms
+16-Sep-2018 19:42:29.029 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+16-Sep-2018 19:42:29.029 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 19:42:29.032 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 19:42:29.033 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Sep-2018 19:42:29.076 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 19:42:29.082 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 19:42:29.085 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 19:42:29.086 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 19:42:31.405 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.5
+16-Sep-2018 19:42:31.409 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 6 2018 21:42:23 UTC
+16-Sep-2018 19:42:31.410 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.5.0
+16-Sep-2018 19:42:31.410 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+16-Sep-2018 19:42:31.410 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-22-generic
+16-Sep-2018 19:42:31.410 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Sep-2018 19:42:31.410 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+16-Sep-2018 19:42:31.410 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           10.0.1+10-Ubuntu-3ubuntu1
+16-Sep-2018 19:42:31.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Sep-2018 19:42:31.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5
+16-Sep-2018 19:42:31.411 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5
+16-Sep-2018 19:42:31.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Sep-2018 19:42:31.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Sep-2018 19:42:31.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/conf/logging.properties
+16-Sep-2018 19:42:31.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Sep-2018 19:42:31.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Sep-2018 19:42:31.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Sep-2018 19:42:31.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-Sep-2018 19:42:31.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5
+16-Sep-2018 19:42:31.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5
+16-Sep-2018 19:42:31.412 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/temp
+16-Sep-2018 19:42:31.412 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+16-Sep-2018 19:42:31.452 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 19:42:31.469 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+16-Sep-2018 19:42:31.476 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 19:42:31.478 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+16-Sep-2018 19:42:31.479 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 568 ms
+16-Sep-2018 19:42:31.540 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Sep-2018 19:42:31.540 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.5
+16-Sep-2018 19:42:31.548 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/host-manager]
+16-Sep-2018 19:42:31.957 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/host-manager] has finished in [407] ms
+16-Sep-2018 19:42:31.958 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/ROOT]
+16-Sep-2018 19:42:32.006 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/ROOT] has finished in [48] ms
+16-Sep-2018 19:42:32.007 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/manager]
+16-Sep-2018 19:42:32.044 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/manager] has finished in [37] ms
+16-Sep-2018 19:42:32.044 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/my_webapp]
+16-Sep-2018 19:42:32.099 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Sep-2018 19:42:32.107 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/my_webapp] has finished in [63] ms
+16-Sep-2018 19:42:32.107 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/examples]
+16-Sep-2018 19:42:32.307 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/examples] has finished in [199] ms
+16-Sep-2018 19:42:32.307 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/docs]
+16-Sep-2018 19:42:32.324 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/docs] has finished in [17] ms
+16-Sep-2018 19:42:32.326 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 19:42:32.356 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 19:42:32.385 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 906 ms
+16-Sep-2018 19:42:50.627 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+16-Sep-2018 19:42:50.627 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 19:42:50.680 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 19:42:50.731 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Sep-2018 19:42:50.790 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 19:42:50.795 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 19:42:50.803 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 19:42:50.806 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 19:42:53.079 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.5
+16-Sep-2018 19:42:53.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 6 2018 21:42:23 UTC
+16-Sep-2018 19:42:53.084 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.5.0
+16-Sep-2018 19:42:53.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+16-Sep-2018 19:42:53.085 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-22-generic
+16-Sep-2018 19:42:53.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Sep-2018 19:42:53.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+16-Sep-2018 19:42:53.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           10.0.1+10-Ubuntu-3ubuntu1
+16-Sep-2018 19:42:53.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Sep-2018 19:42:53.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5
+16-Sep-2018 19:42:53.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5
+16-Sep-2018 19:42:53.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Sep-2018 19:42:53.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Sep-2018 19:42:53.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/conf/logging.properties
+16-Sep-2018 19:42:53.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Sep-2018 19:42:53.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Sep-2018 19:42:53.089 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Sep-2018 19:42:53.090 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-Sep-2018 19:42:53.090 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5
+16-Sep-2018 19:42:53.090 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5
+16-Sep-2018 19:42:53.090 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/temp
+16-Sep-2018 19:42:53.090 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+16-Sep-2018 19:42:53.127 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 19:42:53.142 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+16-Sep-2018 19:42:53.146 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 19:42:53.148 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+16-Sep-2018 19:42:53.148 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 562 ms
+16-Sep-2018 19:42:53.210 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Sep-2018 19:42:53.210 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.5
+16-Sep-2018 19:42:53.218 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/host-manager]
+16-Sep-2018 19:42:53.608 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/host-manager] has finished in [390] ms
+16-Sep-2018 19:42:53.609 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/ROOT]
+16-Sep-2018 19:42:53.627 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/ROOT] has finished in [19] ms
+16-Sep-2018 19:42:53.628 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/manager]
+16-Sep-2018 19:42:53.651 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/manager] has finished in [23] ms
+16-Sep-2018 19:42:53.651 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/my_webapp]
+16-Sep-2018 19:42:53.707 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Sep-2018 19:42:53.716 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/my_webapp] has finished in [64] ms
+16-Sep-2018 19:42:53.716 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/examples]
+16-Sep-2018 19:42:53.980 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/examples] has finished in [264] ms
+16-Sep-2018 19:42:53.981 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/docs]
+16-Sep-2018 19:42:53.998 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/docs] has finished in [17] ms
+16-Sep-2018 19:42:54.000 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 19:42:54.020 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 19:42:54.038 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 889 ms
+16-Sep-2018 19:44:00.239 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+16-Sep-2018 19:44:00.240 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 19:44:00.243 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 19:44:00.244 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+16-Sep-2018 19:44:00.278 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 19:44:00.281 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 19:44:00.284 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 19:44:00.285 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 19:44:02.790 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.5
+16-Sep-2018 19:44:02.794 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Feb 6 2018 21:42:23 UTC
+16-Sep-2018 19:44:02.795 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.5.0
+16-Sep-2018 19:44:02.795 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+16-Sep-2018 19:44:02.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.15.0-22-generic
+16-Sep-2018 19:44:02.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+16-Sep-2018 19:44:02.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-11-openjdk-amd64
+16-Sep-2018 19:44:02.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           10.0.1+10-Ubuntu-3ubuntu1
+16-Sep-2018 19:44:02.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+16-Sep-2018 19:44:02.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5
+16-Sep-2018 19:44:02.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5
+16-Sep-2018 19:44:02.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+16-Sep-2018 19:44:02.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+16-Sep-2018 19:44:02.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/conf/logging.properties
+16-Sep-2018 19:44:02.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+16-Sep-2018 19:44:02.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+16-Sep-2018 19:44:02.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+16-Sep-2018 19:44:02.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+16-Sep-2018 19:44:02.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5
+16-Sep-2018 19:44:02.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5
+16-Sep-2018 19:44:02.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/temp
+16-Sep-2018 19:44:02.798 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+16-Sep-2018 19:44:02.838 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 19:44:02.853 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+16-Sep-2018 19:44:02.858 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 19:44:02.860 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+16-Sep-2018 19:44:02.861 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 559 ms
+16-Sep-2018 19:44:02.927 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+16-Sep-2018 19:44:02.927 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.5
+16-Sep-2018 19:44:02.935 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/host-manager]
+16-Sep-2018 19:44:03.334 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/host-manager] has finished in [400] ms
+16-Sep-2018 19:44:03.335 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/ROOT]
+16-Sep-2018 19:44:03.357 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/ROOT] has finished in [21] ms
+16-Sep-2018 19:44:03.357 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/manager]
+16-Sep-2018 19:44:03.383 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/manager] has finished in [26] ms
+16-Sep-2018 19:44:03.384 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/my_webapp]
+16-Sep-2018 19:44:03.443 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+16-Sep-2018 19:44:03.451 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/my_webapp] has finished in [68] ms
+16-Sep-2018 19:44:03.451 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/examples]
+16-Sep-2018 19:44:03.717 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/examples] has finished in [266] ms
+16-Sep-2018 19:44:03.717 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/docs]
+16-Sep-2018 19:44:03.734 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/vallsortizpol/pti/p1_servlets/apache-tomcat-9.0.5/webapps/docs] has finished in [17] ms
+16-Sep-2018 19:44:03.736 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+16-Sep-2018 19:44:03.765 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+16-Sep-2018 19:44:03.782 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 919 ms
