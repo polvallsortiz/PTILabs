@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrental xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="CarRental.xsd"><rental id="1234"><make>Seat</make><mo>Ibiza</mo><nofdays>2</nofdays><nofunits>3</nofunits><discount>14</discount></rental><rental id="1234"><make>Volvo</make><model>V40</model><nofdays>10</nofdays><nofunits>1</nofunits><discount>10</discount></rental></carrental>
